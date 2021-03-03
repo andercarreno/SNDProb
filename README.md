@@ -8,6 +8,9 @@
 </p>
 
 
+[](figuresPaper/Scenario4_Strategy6.gif)
+
+
 SNDProb provides a Streaming Novelty Detection framework for data stream classification. It is a free R code that is under [MIT License](https://github.com/andercarreno/SNDProb/blob/master/LICENSE).
 
 ## Usage
