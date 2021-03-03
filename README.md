@@ -1,3 +1,14 @@
-Streaming novelty detection framework for large data stream classification.
+<h1 align="center">SNDProb</h1>
+<h2 align="center">Streaming novelty detection framework for large data stream classification.</h2>
 
-Source code in R.
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Language&message=R&color=green&style=plastic&logo=R" alt="Language">
+  <img src="https://img.shields.io/badge/Code-Completed-Green?style=plastic" alt="Build status"/>
+  <img src="https://img.shields.io/badge/Journal-Under_Revision-blue?style=plastic" alt="Journal status"/>
+</p>
+
+
+SNDProb provides a Streaming Novelty Detection framework for data stream classification. It is a free R code that is under [MIT License](https://github.com/andercarreno/SNDProb/blob/master/LICENSE).
+
+## Contact
+You can contact the author using the following email: [andercarreno@ehu.eus](mailto:andercarreno@ehu.eus?subject=SNDProb%20Github)
