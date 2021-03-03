@@ -1,2 +1,3 @@
-# SNDProb
-Code of the paper SNDProb: A probabilistic approach for streaming novelty detection
+Streaming novelty detection framework for large data stream classification.
+
+Source code in R.
