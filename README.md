@@ -7,21 +7,25 @@
   <img src="https://img.shields.io/badge/Journal-Under_Revision-blue?style=plastic" alt="Journal status"/>
 </p>
 
-
-[](figuresPaper/Scenario4_Strategy6.gif)
-
+![Animated Scenario](figuresPaper/Scenario4_Strategy6.gif)
 
 SNDProb provides a Streaming Novelty Detection framework for data stream classification. It is a free R code that is under [MIT License](https://github.com/andercarreno/SNDProb/blob/master/LICENSE).
+
+--------
 
 ## Usage
 A simple [web application](https://andercarreno.shinyapps.io/SNDProb) can be used to run the experiments explained in the paper.
 
 The SNDProb framework has 2 main code files. ```SNDProb.R```contains the functions of the SNDProb such as how to learn the initial offline model, predict newcomer instances or discover new classes. ```SNDProbRun.R``` is the main program to run the SNDProb.
 
+--------
+
 ## Data
 The experimental data can be found under the data folder of this repository. The generator functions are under the dataGenerators folder.
 
 In the ```dataGenerators/Scenarios.R``` the arrival strategies can be found.
+
+--------
 
 ## Contact
 You can contact the author using the following email:
