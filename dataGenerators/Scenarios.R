@@ -193,6 +193,32 @@ getStrategies <- function(num.train){
   return(strategies)
 }
 
+create.strategy <- function(n.train, n.test, widths, break.points){
+  if(length(widths) != n.train + n.test)
+    stop("The number of width values does not match the number of models (n.train + n.test)")
+  if(length(break.points) != n.train + n.test)
+    stop("The number of break.point values does not match the number of models (n.train + n.test)")
+
+  strategies <- lapply(1:(n.train + n.test), function(ix){
+    list('width'=widths[ix], 'At.which.break'=break.points[ix])
+  })
+  names(strategies) <- c(paste0('model.tr.', 1:n.train), paste0('model.ts.', 1:n.test))
+  return(strategies)
+}
+
+create.scenario <- function(n.train, n.test, mean.values, sigma.values){
+  if(length(mean.values) != n.train + n.test)
+    stop("The number of mean values does not match the number of models (n.train + n.test)")
+  if(length(sigma.values) != n.train + n.test)
+    stop("The number of sigma values does not match the number of models (n.train + n.test)")
+
+  scenario <- lapply(1:(n.train + n.test), function(ix){
+    list('means'=mean.values[ix], 'sigma'=sigma.values[ix])
+  })
+  names(scenario) <- c(paste0('model.tr.', 1:n.train), paste0('model.ts.', 1:n.test))
+  return(scenario)
+}
+
 sigmoid.function <- function(width, break.point, it){
   return(1/(1+exp(width*(break.point-it))))
 }
