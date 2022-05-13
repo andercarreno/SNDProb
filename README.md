@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Language&message=R&color=green&style=plastic&logo=R" alt="Language">
   <img src="https://img.shields.io/badge/Code-Completed-Green?style=plastic" alt="Build status"/>
-  <img src="https://img.shields.io/badge/Journal-Under_Revision-blue?style=plastic" alt="Journal status"/>
+  <img src="https://img.shields.io/badge/Journal-IEEE%20TKDE-blue?style=plastic&link=https://ieeexplore.ieee.org/document/9761762" alt="Journal status"/>
   <img src="https://img.shields.io/static/v1?label=Author%20Homepage&message=AC&color=blue&style=plastic&link=andercarreno.eus" alt="andercarreno">
   <img src="https://img.shields.io/static/v1?label=Homepage&message=ISG&color=blue&style=plastic&link=http://www.sc.ehu.es/ccwbayes/" alt="ISGWeb">
 </p>
@@ -19,6 +19,13 @@ SNDProb provides a Streaming Novelty Detection framework for data stream classif
 
 
 It is a free R code that is under [MIT License](https://github.com/andercarreno/SNDProb/blob/master/LICENSE).
+
+This is the code of the work: [SNDProb: A probabilistic approach for streaming novelty detection](https://ieeexplore.ieee.org/document/9761762) published in IEEE Transactions on Knowledge and Data Engineering journal in 2022.
+
+For citing (In press):
+
+> A. Carreno, I. Inza and J. A. Lozano, "SNDProb: A probabilistic approach for streaming novelty detection," in IEEE Transactions on Knowledge and Data Engineering, doi: 10.1109/TKDE.2022.3169229.
+
 
 --------
 
